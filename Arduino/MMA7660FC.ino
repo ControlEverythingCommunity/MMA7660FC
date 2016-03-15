@@ -5,6 +5,7 @@
 // https://www.controleverything.com/content/Accelorometer?sku=MMA7660FC_I2CS#tabs-0-product_tabset-2
 
 #include <Wire.h>
+
 // MMA7660FC I2C address is 0x4C(76)
 #define Addr 0x4C
 
