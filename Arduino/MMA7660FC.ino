@@ -1,11 +1,11 @@
 // Distributed with a free-will license.
 // Use it any way you want, profit or free, provided it fits in the licenses of its associated works.
-// MMA7660
-// This code is designed to work with the MMA7660_I2CS I2C Mini Module available from ControlEverything.com.
+// MMA7660FC
+// This code is designed to work with the MMA7660FC_I2CS I2C Mini Module available from ControlEverything.com.
 // https://www.controleverything.com/content/Accelorometer?sku=MMA7660FC_I2CS#tabs-0-product_tabset-2
 
 #include <Wire.h>
-// MMA7660 I2C address is 0x4C(76)
+// MMA7660FC I2C address is 0x4C(76)
 #define Addr 0x4C
 
 void setup() 
