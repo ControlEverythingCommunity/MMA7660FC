@@ -76,11 +76,11 @@ void loop()
   }
     
   // Output data to serial monitor
-  Serial.print("Acceleration in X-Axis is :");
+  Serial.print("Acceleration in X-Axis :");
   Serial.println(xAccl);
-  Serial.print("Acceleration in Y-Axis is :");
+  Serial.print("Acceleration in Y-Axis :");
   Serial.println(yAccl);
-  Serial.print("Acceleration in Z-Axis is :");
+  Serial.print("Acceleration in Z-Axis :");
   Serial.println(zAccl) ;
   delay(500); 
 }
