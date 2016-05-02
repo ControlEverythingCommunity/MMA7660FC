@@ -31,7 +31,7 @@ public class MMA7660FC
 		byte[] data = new byte[3];
 		device.read(0x00, data, 0, 3);
 
-		// Cpnvert the data to 6-bits
+		// Convert the data to 6-bits
 		int xAccl = data[0] & 0x3F;
 		if(xAccl > 31)
 		{
